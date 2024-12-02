@@ -1,0 +1,19 @@
+/* Archivo CSS: App.css */
+.AppLayout {
+    display: flex;
+    height: 100vh; /* Asegura que ocupe toda la pantalla */
+    width: 100vw;  /* Asegura que ocupe todo el ancho */
+}
+
+.leftZone {
+    flex: 0 0 30%; /* Ocupa el 30% del ancho */
+    background-color: #f0f0f0; /* Ejemplo: fondo claro */
+    padding: 20px;
+    border-right: 2px solid #ddd; /* Línea divisoria */
+}
+
+.rightZone {
+    flex: 0 0 70%; /* Ocupa el 70% del ancho */
+    background-color: #fff; /* Ejemplo: fondo blanco */
+    padding: 20px;
+}
